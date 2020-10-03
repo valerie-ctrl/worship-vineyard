@@ -1,0 +1,101 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.main-content {
+    background-color: #f8e5f8;
+    padding: 2%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Headlines */
+
+.h-big {
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+.h-cursive {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+/* Timetable-section */
+
+.bg-image-1 {
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    left: -7%;
+}
+
+.bg-image-2 {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    right: 3%;
+}
+
+.title {
+    margin: 20px 95px;
+}
+
+.timetable-section {
+    position: relative;
+    background-color: #fdf0cb96;
+    width: 90%;
+    padding: 20px 0 30px 30px;
+    margin: 4% auto;
+    z-index: 2;
+}
+
+#carouselExampleControls {
+    text-align: center;
+}
+
+.circle-div {
+    background-color: #f8e5f8;
+    border-radius: 100%;
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    padding-top: 60px;
+    margin: 40px 50px;
+    border: 10px #30bd8742 solid;
+} 
+
+.item-image {
+    width: 30%;
+    padding: 17px 0 30px 0;
+}
+
+.image-bigger {
+    width: 15em;
+    padding: 12px 0 20px 0;
+}
+
+.carousel-contr {
+    font-size: 5rem;
+} 
+
+.fas {
+    color: #358aa1;
+}
+
+/* Continue Section */
+.continue-section {
+    background-color: #f8e5f8;
+    height: 500px;
+    position: relative;
+    z-index: 2;
+
+}
